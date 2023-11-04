@@ -226,6 +226,7 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* box-sizing: border-box; */
 }
 .footer-sec-1{
     width: 30%;
@@ -241,9 +242,12 @@ a:hover{
     line-height: 30px;
 }
 .footer-sec-3{
-    width: 33.33%;
+    width: 30%;
 }
-
+.e-mail{
+    display: flex;
+    width: 80%;
+}
 .social-icons{
     padding: 10px;
 }
@@ -345,6 +349,9 @@ a:hover{
     }
     .footer-sec-1,.footer-sec-2,.footer-sec-3{
         width: 100%;
+    }
+    .footer-sec-3{
+        display: none !important;
     }
 }
 
